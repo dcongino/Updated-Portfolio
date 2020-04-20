@@ -1,0 +1,13 @@
+#selfpic {
+    height: 249px;
+    width: auto;
+}
+
+#contactpic, #portfoliopic {
+    height: 194px;
+    width: auto;
+}
+
+h2 {
+    font-family: 'PT Sans', sans-serif;
+}
