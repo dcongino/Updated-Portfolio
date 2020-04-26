@@ -3,11 +3,54 @@
     width: auto;
 }
 
-#contactpic, #portfoliopic {
+#contactpic, #portfoliopic, #biopic {
     height: 194px;
     width: auto;
 }
 
-h2 {
+h2, h4, h5, p {
     font-family: 'PT Sans', sans-serif;
 }
+
+body {
+    background-image: url(../images/wall.jpg);
+    margin-bottom: 100px;
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 6rem;
+}
+
+#self-pic2 {
+    transform: rotate(90deg);
+    height: 200px;
+    width: auto;
+}
+
+#spideypic, #crystalpic, #davepic, #superpic, #trainpic {
+    height: 175px;
+    width: auto;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(75, 67, 67);
+    color: white;
+    text-align: center;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  html {
+      height: 100%;
+      box-sizing: border-box;
+  }
