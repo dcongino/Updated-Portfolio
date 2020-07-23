@@ -21,7 +21,7 @@ body {
 }
 
 #self-pic2 {
-    transform: rotate(90deg);
+    transform: rotate(0deg);
     height: 200px;
     width: auto;
 }
